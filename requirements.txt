@@ -1,0 +1,9 @@
+numpy
+sounddevice
+webrtcvad
+asyncio
+termcolor
+openai
+aiofiles
+pygame
+huggingface_hub>=0.20.3

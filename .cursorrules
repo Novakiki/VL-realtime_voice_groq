@@ -1,0 +1,17 @@
+we will use groq whisper for fast transcriptons:
+it uses openai library use asyncopenai for everything:
+whisper-large-v3-turbo @ use this model for whisper with groq
+import os
+import openai
+
+client = openai.OpenAI(
+    base_url="https://api.groq.com/openai/v1",
+    api_key=os.environ.get("GROQ_API_KEY")
+)
+
+we will use gpt-4o-mini model exactly(gpt-4o-mini, with the 'o') from chat.completions again use asyncopenai 
+we will use openai tts to text to speech
+
+Now what we want is a real time chat application so we want to use web RTC VAD and we would like to use Grox whisper to transcribe users audio get a response from GPT 4O but we'll use streaming responses so that we can get the TTS working on it right away so we're going to need to use some asyncio and queue system so I'll let you decide what is best and then as soon as we detect user speaking through the VAD then we'll stop the audio playing and then immediately process the next user input so everything needs to work super fast So please put your best effort into it I believe in you thank you let me know if you have any questions
+
+please have print statements with termcolor to let us know what is happening at all times

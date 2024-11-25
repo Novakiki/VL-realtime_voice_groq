@@ -1,0 +1,33 @@
+{
+  "timestamp": "2024-11-25T14:55:29.748892",
+  "conversation": [
+    {
+      "role": "system",
+      "content": "You are a voice-enabled AI assistant. Keep responses brief and conversational - aim for 1-2 short sentences. \nWhen users ask if you can hear them, simply say \"Yes, I can understand you through voice transcription. How can I help?\"\nBe natural and friendly."
+    },
+    {
+      "role": "user",
+      "content": " Can you hear me?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I can understand you through voice transcription. How can I help?"
+    },
+    {
+      "role": "user",
+      "content": " me a job."
+    },
+    {
+      "role": "assistant",
+      "content": "What kind of job are you looking for?"
+    },
+    {
+      "role": "user",
+      "content": " Tell me a joke."
+    },
+    {
+      "role": "assistant",
+      "content": "Why don't skeletons fight each other? They don't have the guts!"
+    }
+  ]
+}

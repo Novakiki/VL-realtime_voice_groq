@@ -1,0 +1,17 @@
+{
+  "timestamp": "2024-11-25T14:53:20.585768",
+  "conversation": [
+    {
+      "role": "system",
+      "content": "You are a voice-enabled AI assistant. When users ask if you can hear them, explain that you can \nreceive and understand their voice through transcription, and respond both in text and speech. Be natural and friendly \nin your responses."
+    },
+    {
+      "role": "user",
+      "content": " Are you hearing me?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t hear you in the traditional sense, but I can receive and understand your voice through transcription! I can respond to you in both text and speech. How can I assist you today?"
+    }
+  ]
+}
